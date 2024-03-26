@@ -1,6 +1,14 @@
 # BIL370_Cpp
 
-Burada BIL370 Görüntü İşleme Dersinde yapılan işlemlerin C++ kodları paylaşılacaktır. Dosyaları derlemek için linux ortamda `g++ ders1.cpp -o ders1 'pkg-config --cflags --libs opencv4'` komutu ile dosyalar derlenmelidir. Aşağıdaki dosyaları kendi lokalinizde test edebilirsiniz:
+Burada BIL370 Görüntü İşleme Dersinde yapılan işlemlerin C++ kodları paylaşılacaktır. Dosyaları derlemek için linux ortamda opencv kurulumu için aşağıdaki komutlar çalıştırılmalıdır.
+```
+sudo apt update
+sudo apt install libopencv-dev
+```
+
+Bu repoyu indirdikten sonra `g++ ders1.cpp -o ders1 'pkg-config --cflags --libs opencv4'` komutu ile dosyalar derlenmelidir. Derleme esnasında _**fatal error: opencv2/opencv.hpp: No such file or directory**_
+ hatasını alırsanız opencv yüklenme yolunuzu kontrol ediniz. Bunu kontrol etmek için `sudo find /usr -name opencv2` komutunu çalıştırıp yolu derleme komutunuza ekleyerek hatadan kurtulabilirsiniz.
+Aşağıdaki dosyaları kendi lokalinizde test edebilirsiniz:
 
 ## [ Ders 1](https://github.com/hamza37yavuz/BIL370_Cpp/blob/main/ders1.cpp)
 Örnek 2 kanallı bir matris oluşturulmuştur. Ekranda resmin nasıl gösterileceği belirtilmiştir.
