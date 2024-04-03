@@ -28,3 +28,7 @@ lçekleme yapılmıştır. Bu sebeple kare alma işlemi sonrası bir bozulma mey
 
 ## [Ders 6](https://github.com/hamza37yavuz/BIL370_Cpp/blob/main/ders6.cpp)
 [ay.jpg](https://github.com/hamza37yavuz/BIL370_Cpp/blob/main/ay.jpg) resmi üzerinde noktasal işlemlere devam yapılmıştır. Birt önceki başlıktaki hata düzeltilmeye çalışılmıştır. Düzeltme yapılacaktır.
+
+## [Ders 7](https://github.com/hamza37yavuz/BIL370_Cpp/blob/main/ders7.cpp)
+src dizininde bulunan fotoğraf üzerinden histogram çizilmesi gösterilmiştir. Bu histogram renkli görüntüler üzerinden çizilmiştir. Genel olarak histogramın tanımını yapalım.
+Resimler için histogramlar resimdeki renk değerlerinin konum değerlerinden bağımsız olarak grafikle görselleştirilmesini ifade eder. Bu histogram üzerinden kontrast doku ve baskın renk konusunda yorum yapılabilir.
